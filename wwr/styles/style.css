@@ -1,3 +1,4 @@
+@import url(https://www.cssfontstack.com/);
 #content
 
 .container {
@@ -10,6 +11,7 @@
       text-align: center;
       color: white;
       text-decoration: none;
+      padding: 35px;
     }
 
     #hero-msg h1,
@@ -24,7 +26,14 @@
 
     main section {
       text-align: center;
+      font-family: 'Baskerville', 'Cambria', serif;
     }
+    main section img {
+      box-sizing: border-box;
+    }
+.card-img {
+  border: 10px solid #003366;
+}
   
 #background {
     height: 725px;
@@ -32,6 +41,10 @@
 
 body {
   background-color: #f0f0f0; 
+  font-family: 'Baskerville', 'Cambria', serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -44,17 +57,20 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.book,
-.join {
+.book, .join {
   background-color: lightgrey;
   color: white; 
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
 .join:hover {
   background-color: #00cc00;
-  color: #000; 
+  color: #000;
 }
 
 #background {
@@ -64,15 +80,22 @@ nav a:hover {
 .msg h2 {
   background-color: #fffbe6; 
   color: #003366;
+  font-family: 'Baskerville', 'Cambria', serif;
+  margin: 0;
 }
 
 .msg p {
     color: #333;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
   background-color: #222; 
-  color: #ccc; 
+  color: #ccc;
+  padding: 25px 50px; 
+  margin-top: 200px;
 }
 
 footer a {
@@ -91,11 +114,15 @@ footer p {
 
 .home-title {
   color: #333;
+  font-family: 'Baskerville', 'Cambria', serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -103,5 +130,5 @@ footer p {
 }
 
 #hero-img {
-    width: 100;
+    width: 100%;
 }
