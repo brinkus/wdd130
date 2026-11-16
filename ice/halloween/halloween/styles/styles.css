@@ -1,0 +1,140 @@
+/* My added Halloween CSS styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Roboto+Slab:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(circle at top, rgba(125, 25, 150, 0.35), transparent 35%),
+        #120d18;
+    color: #f5e6c8;
+    font-family: 'Roboto Slab', Georgia, serif;
+}
+
+#wrapper {
+    max-width: 1100px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #211526;
+    border-left: 5px solid #f47b20;
+    border-right: 5px solid #f47b20;
+    box-shadow: 0 0 35px #000;
+}
+
+/* Navigation */
+header {
+    padding: 1rem;
+    background-color: #0b080d;
+    border-bottom: 4px solid #f47b20;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 0.7rem 1.2rem;
+    border: 2px solid #7b2cbf;
+    border-radius: 8px;
+    background-color: #321044;
+    color: #ff9d2e;
+    font-family: 'Creepster', cursive;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+nav li:hover {
+    background-color: #f47b20;
+    color: #160d1d;
+    box-shadow: 0 0 15px #f47b20;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 1.5rem;
+    color: #ff7518;
+    font-family: 'Nosifer', cursive;
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    text-shadow:
+        3px 3px 0 #571089,
+        0 0 15px #f47b20;
+}
+
+main > img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+    border: 5px solid #f47b20;
+    border-radius: 12px;
+    box-shadow:
+        0 0 0 6px #321044,
+        0 0 25px #000;
+}
+
+/*the main section*/
+main section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 230px;
+    margin: 1%;
+    padding: 1.5rem;
+    border: 3px solid #7b2cbf;
+    border-radius: 12px;
+    background:
+        linear-gradient(145deg, #351445, #1a111f);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+main section:hover {
+    border-color: #f47b20;
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(244, 123, 32, 0.7);
+}
+
+h2 {
+    margin-top: 0;
+    color: #ff9d2e;
+    font-family: 'Creepster', cursive;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.7;
+    color: #f5e6c8;
+}
+
+
+footer {
+    padding: 1.5rem;
+    border-top: 4px solid #f47b20;
+    background-color: #0b080d;
+    color: #b86cff;
+    font-family: 'Creepster', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
